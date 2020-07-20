@@ -7,7 +7,7 @@ import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 
 @Component
-@Path("/")
+@Path("portfolios/")
 public class PortfolioImpl implements InitializingBean {
 
     private Object[][][][] clientPortfolios;

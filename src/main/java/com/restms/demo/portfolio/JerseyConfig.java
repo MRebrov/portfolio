@@ -7,7 +7,7 @@ import javax.ws.rs.ApplicationPath;
 
 
 @Configuration
-@ApplicationPath("portfolios")
+@ApplicationPath("/")
 public class JerseyConfig extends ResourceConfig {
     public JerseyConfig() {
         register(PortfolioImpl.class);
